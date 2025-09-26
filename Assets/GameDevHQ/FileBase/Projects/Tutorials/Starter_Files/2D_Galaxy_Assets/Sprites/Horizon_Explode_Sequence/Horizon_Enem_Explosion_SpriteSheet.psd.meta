@@ -1,0 +1,512 @@
+fileFormatVersion: 2
+guid: 698dd5312c295c64c9f48e486eb5ec3f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8158565766762714590
+    second: Horizon_Enem_Explosion_SpriteSheet_0
+  - first:
+      213: -8913630046443925788
+    second: Horizon_Enem_Explosion_SpriteSheet_1
+  - first:
+      213: 6101593709852183371
+    second: Horizon_Enem_Explosion_SpriteSheet_2
+  - first:
+      213: 1623983346109753411
+    second: Horizon_Enem_Explosion_SpriteSheet_3
+  - first:
+      213: -3596391577948564516
+    second: Horizon_Enem_Explosion_SpriteSheet_4
+  - first:
+      213: -1463350573655904372
+    second: Horizon_Enem_Explosion_SpriteSheet_5
+  - first:
+      213: 600459023555350604
+    second: Horizon_Enem_Explosion_SpriteSheet_6
+  - first:
+      213: 5382647843645230855
+    second: Horizon_Enem_Explosion_SpriteSheet_7
+  - first:
+      213: -5579004734162407012
+    second: Horizon_Enem_Explosion_SpriteSheet_8
+  - first:
+      213: 732848660566667415
+    second: Horizon_Enem_Explosion_SpriteSheet_9
+  - first:
+      213: 1262243915291481331
+    second: Horizon_Enem_Explosion_SpriteSheet_10
+  - first:
+      213: 1011481856733516435
+    second: Horizon_Enem_Explosion_SpriteSheet_11
+  - first:
+      213: -3356448609343103341
+    second: Horizon_Enem_Explosion_SpriteSheet_12
+  - first:
+      213: -3418866833406036723
+    second: Horizon_Enem_Explosion_SpriteSheet_13
+  - first:
+      213: -3425092848326127705
+    second: Horizon_Enem_Explosion_SpriteSheet_14
+  - first:
+      213: -3586906666183255891
+    second: Horizon_Enem_Explosion_SpriteSheet_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Horizon_Enem_Explosion_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 618
+        width: 329.5
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a227b39a3f6ce80800000000000000
+      internalID: -8158565766762714590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horizon_Enem_Explosion_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 618
+        width: 329.5
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee067ef2bc6c4480800000000000000
+      internalID: -8913630046443925788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horizon_Enem_Explosion_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 618
+        width: 329.5
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b4f77c6273da450800000000000000
+      internalID: 6101593709852183371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horizon_Enem_Explosion_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 618
+        width: 329.5
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348a502cf3c898610800000000000000
+      internalID: 1623983346109753411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horizon_Enem_Explosion_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 412
+        width: 329.5
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd35b231aec071ec0800000000000000
+      internalID: -3596391577948564516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horizon_Enem_Explosion_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 412
+        width: 329.5
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f206b086221bbe0800000000000000
+      internalID: -1463350573655904372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horizon_Enem_Explosion_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 412
+        width: 329.5
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40d131fc42455800800000000000000
+      internalID: 600459023555350604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horizon_Enem_Explosion_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 412
+        width: 329.5
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f0f7ff1b103ba40800000000000000
+      internalID: 5382647843645230855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horizon_Enem_Explosion_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 206
+        width: 329.5
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91f60cc0c46392b0800000000000000
+      internalID: -5579004734162407012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horizon_Enem_Explosion_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 206
+        width: 329.5
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790723759f99b2a00800000000000000
+      internalID: 732848660566667415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horizon_Enem_Explosion_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 206
+        width: 329.5
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4d8de3724648110800000000000000
+      internalID: 1262243915291481331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horizon_Enem_Explosion_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 206
+        width: 329.5
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3929a5fb361890e00800000000000000
+      internalID: 1011481856733516435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horizon_Enem_Explosion_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 329.5
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e1045e5cf7b61d0800000000000000
+      internalID: -3356448609343103341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horizon_Enem_Explosion_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 0
+        width: 329.5
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05f77c9abebd80d0800000000000000
+      internalID: -3418866833406036723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horizon_Enem_Explosion_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 0
+        width: 329.5
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af4acc8330a770d0800000000000000
+      internalID: -3425092848326127705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horizon_Enem_Explosion_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 0
+        width: 329.5
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da89aaf246fb83ec0800000000000000
+      internalID: -3586906666183255891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 61eb08fc988240949ad4d1047283f9d3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
