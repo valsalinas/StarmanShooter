@@ -28,6 +28,7 @@ public class SpawnManager : MonoBehaviour
     private GameObject _homingMissilePowerup;
     [SerializeField]
     private GameObject _bossEnemyPrefab;
+    private int _currentWave = 0;
 
     private bool _stopEnemySpawning = false;
     private bool _stopPowerupSpawning = false;
@@ -57,9 +58,8 @@ public class SpawnManager : MonoBehaviour
 
     void StartWave(int waveNumber)
     {
-        int _currentWave = 0;
         _currentWave = waveNumber;
-        _enemiesPerSpawn = waveNumber + 1;
+        _enemiesPerSpawn = waveNumber + 2;
 
         if (_uiManager != null)
         {
