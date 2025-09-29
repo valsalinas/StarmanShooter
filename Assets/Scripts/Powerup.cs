@@ -42,6 +42,10 @@ public class Powerup : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (other.tag == ("PlayerLaser"))
+        {
+            return;
+        }
 
         if (other.tag == "Player")
         {
@@ -81,7 +85,8 @@ public class Powerup : MonoBehaviour
                         break;
                 }
             }
+
+            Destroy(this.gameObject);
         }
-        Destroy(this.gameObject);
     }
 }
