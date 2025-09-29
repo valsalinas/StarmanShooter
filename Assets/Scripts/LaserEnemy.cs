@@ -1,6 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
-using TMPro.Examples;
 using UnityEngine;
 
 public class LaserEnemy : MonoBehaviour
@@ -80,7 +78,7 @@ public class LaserEnemy : MonoBehaviour
             laser.SetActive(true);
         }
         if (_laserBeamCollider != null)
-            _laserBeamCollider.enabled = true;  // Enable laser detection collider
+            _laserBeamCollider.enabled = true;  
     }
 
     public void DeactivateLasers()
@@ -91,60 +89,54 @@ public class LaserEnemy : MonoBehaviour
             laser.SetActive(false);
         }
         if (_laserBeamCollider != null)
-            _laserBeamCollider.enabled = false; // Disable laser detection collider
+            _laserBeamCollider.enabled = false; 
     }
 
-    // This method runs when something enters the trigger collider of the laser
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Hit Something"); //Debug log to show someting collided
+        Debug.Log("Hit Something"); 
 
-        if (other.tag == "Player") //Damage to player inside Laserbeam
+        if (other.tag == "Player") 
         {
             _playerInLaser = other.GetComponent<Player>();
-            _inLaser = true; // Set flag that player is in the laser
+            _inLaser = true; 
 
-            // If a damage coroutine is already running, stop it first
             if (_inLaserRoutine != null)
             {
                 StopCoroutine(_inLaserRoutine);
             }
-            // Start the coroutine that applies damage over time
             _inLaserRoutine = InLaser();
             StartCoroutine(_inLaserRoutine);
         }
     }
 
-    // This method runs when the player exits the laser beam
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.gameObject.tag == "Player")
         {
             Debug.Log("Player left laser");
-            _inLaser = false; //Player is no longer in Laser
+            _inLaser = false; 
 
-            //Stop damage coroutine if its running
             if (_inLaserRoutine != null)
             {
                 StopCoroutine(_inLaserRoutine);
                 _inLaserRoutine = null;
             }
 
-            _playerInLaser = null; // Clear the reference to the player
+            _playerInLaser = null; 
         }
     }
 
-    // Coroutine that applies damage every second while the player is in the laser
     private IEnumerator InLaser()
     {
         while (_inLaser == true)
         {
             if (_playerInLaser != null)
             {
-                _playerInLaser.Damage(); // Damage the player once per second
+                _playerInLaser.Damage(); 
             }
 
-            yield return new WaitForSeconds(1f); // wait 1 second before next damage
+            yield return new WaitForSeconds(1f); 
         }
     }
     public void PlayerEnteredLaser(Collider2D playerCollider)
